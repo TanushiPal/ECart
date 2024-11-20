@@ -110,6 +110,12 @@ body {
         margin: 15px 0;
     }
 }
+@media (max-width: 600px) {
+    .main{
+      background-size: contain; /* Adjust as needed for smaller screens */
+      height: auto;
+    }
+  }
 
 /* Main Section */
 .main {
